@@ -27,6 +27,24 @@
 .App-link {
   color: #61dafb;
 }
+.iconButton{
+  transition : all 0.2s !important;
+}
+.iconButton :hover{
+  background-color: #282c3400 ;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+}
+
+.todoCard{
+  transition : all 0.2s !important;
+}
+.todoCard :hover{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.162);
+}
+
 
 @keyframes App-logo-spin {
   from {
